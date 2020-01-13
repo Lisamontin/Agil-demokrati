@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #7000A5; 
     font-family: 'Gloria Hallelujah', cursive;
 }
@@ -26,9 +26,59 @@ button {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 24px;
     font-weight: bold;
-    width: 20%;
+    
     padding: 50px;
     margin-top: 100px;
     box-shadow: 4px 4px 4px 0px #37005e;
     cursor: pointer;
-}
+} */
+
+
+    body{
+        background: #7000A5;
+        font-family: 'Gloria Hallelujah', cursive;
+        
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        background: white;
+        margin: 50px auto;
+        width: 60%;
+        padding: 2em;
+        border-radius: 8px;
+    }
+    @media only screen and (min-width: 600px){
+        article{
+            margin-top: 150px;
+        }
+    }
+    article a{    
+        background: #00FFC2;
+        color: #37005e;
+        padding: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        filter: drop-shadow(4px 4px 4px #37005e);
+        align-self: center;        
+        border-radius: 16px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header a{
+        font-size: 3em;
+        color: #FF00C7;
+        text-decoration: none;
+    }
+    header a:hover {
+        opacity: 0.7;
+    }
+
+    .no-btn{
+        background-color: #FF00C7;
+        
+    }

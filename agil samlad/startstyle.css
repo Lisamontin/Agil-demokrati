@@ -1,0 +1,48 @@
+body {
+  background-color: #7000A5;
+  color:white;
+  font-size: 24pt;
+  text-align:center;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content:space-around;
+  align-items: center;
+  font-family: 'Gloria Hallelujah', cursive;
+      }
+      main {
+          margin: 50px;
+      }
+      form {
+          display:flex;
+          flex-flow: column nowrap;
+          justify-content:space-around;
+          align-items:center;
+      }
+  button:first-of-type {
+      background-color: #00FFC2;
+      color: #37005e;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 18pt;
+      border:none;
+      border-radius: 10px;
+      height: 100px;
+      width: 200px;
+      filter: drop-shadow(4px 4px 4px #37005e);
+      font-weight:bold;
+  }
+  button:last-of-type {
+      background-color: #FF00C7;
+      color:#37005e;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 18pt;
+      margin: 20px;
+      border:none;
+      border-radius: 10px;
+      height: 100px;
+      width: 300px;
+      filter: drop-shadow(4px 4px 4px #37005e);
+      font-weight:bold;
+  }
+  button:last-of-type:hover, button:first-of-type:hover {
+      cursor: pointer;
+  }
