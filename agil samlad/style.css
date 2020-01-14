@@ -1,37 +1,3 @@
-/* body {
-    background-color: #7000A5; 
-    font-family: 'Gloria Hallelujah', cursive;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 250px;
-}
-
-article {
-    background-color: white;
-    font-size: 24px;
-    font-weight: bold;
-    width: 40%;
-    text-align: center;
-    padding: 50px 80px;
-    box-shadow: 4px 4px 4px 0px #37005e;
-}
-
-button {
-    background-color: #00FFC2;
-    color: #37005e;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 24px;
-    font-weight: bold;
-    
-    padding: 50px;
-    margin-top: 100px;
-    box-shadow: 4px 4px 4px 0px #37005e;
-    cursor: pointer;
-} */
 
 
     body{
@@ -49,6 +15,11 @@ button {
         width: 60%;
         padding: 2em;
         border-radius: 8px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
     }
     @media only screen and (min-width: 600px){
         article{
