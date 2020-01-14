@@ -15,6 +15,9 @@
         width: 60%;
         padding: 2em;
         border-radius: 8px;
+        
+        /*tillägg*/
+        font-size: 24px;
     }
     h1{
         color: white;
@@ -35,6 +38,10 @@
         filter: drop-shadow(4px 4px 4px #37005e);
         align-self: center;        
         border-radius: 16px;
+        
+        /*tillägg*/
+        margin: 5px;
+        font-size: 24px;
     }
     header{
         display: flex;
@@ -50,6 +57,11 @@
     }
 
     .no-btn{
-        background-color: #FF00C7;
-        
+        background-color: #FF00C7;        
+    }
+
+    /* tillägg -för knappar*/
+    .flex-container{
+        display: flex;
+        margin: auto;
     }
